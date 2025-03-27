@@ -1,0 +1,25 @@
+.nav {
+	display: grid;
+	grid-template-columns: 2fr 8fr 2fr;
+	gap: 20px;
+	background-color: #252525;
+	padding: 40px 0 20px;
+	opacity: 0.9;
+}
+
+.container-nav{
+
+}
+
+.nav__logo {
+	align-self: center;
+	padding-left: 20px;
+}
+
+.nav__btn {
+	display: none;
+
+	@include tablet() {
+		display: block;
+	}
+}
